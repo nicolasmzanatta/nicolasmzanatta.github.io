@@ -45,6 +45,10 @@
   left: -4px;
 }
 
+.empresa:hover {
+  filter: brightness(0.96);
+}
+
 .empresa-ano {
   position: absolute;
   top: 22px;
@@ -80,6 +84,11 @@
   border-radius: 4px;
   background: #ffffff;
   padding: 5px 10px;
+}
+
+.empresa-habilidades li:hover {
+  background: #311fac;
+  color: #ffff;
 }
 
 @media (max-width: 800px) {
