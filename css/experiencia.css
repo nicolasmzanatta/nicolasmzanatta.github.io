@@ -32,6 +32,7 @@
   margin-bottom: 20px;
   border-radius: 4px;
   position: relative;
+  transition: 0.3s;
 }
 
 .empresa::before {
@@ -84,6 +85,7 @@
   border-radius: 4px;
   background: #ffffff;
   padding: 5px 10px;
+  transition: 0.2s;
 }
 
 .empresa-habilidades li:hover {

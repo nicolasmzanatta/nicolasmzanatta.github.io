@@ -54,11 +54,12 @@
   border-radius: 4px;
   display: flex;
   flex-direction: column;
-  border: solid #141414;
+  border: 2px solid #141414;
+  transition: 0.2s;
 }
 
 .curso:hover {
-  border: solid #311fac;
+  border: 2px solid #311fac;
 }
 
 .curso-tipo {
@@ -79,11 +80,11 @@
 .curso-nome::before {
   content: "";
   display: block;
-  width: 5px;
+  width: 4px;
   height: 20px;
   background: linear-gradient(#6d5cde, #311fac);
   position: absolute;
-  left: -25px;
+  left: -24px;
 }
 
 .curso-instituicao {
